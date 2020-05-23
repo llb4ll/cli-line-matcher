@@ -1,0 +1,15 @@
+[package]
+name = "linematcher"
+version = "0.1.0"
+authors = ["llb4ll"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+indicatif = "0.14"
+
+[dev-dependencies]
+assert_cmd = "0.10"
+predicates = "1"
